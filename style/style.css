@@ -72,7 +72,7 @@ body {
 .sign-up {
     background-color: #3882f6;
     color: #e5e7eb;
-    border-radius: 4px;
+    border-radius: 8px;
     border: none;
     padding: 8px 16px;
     width: 100px;
@@ -98,6 +98,10 @@ body {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+}
+
+.rand-info .subtext {
+    color: #1f2937;
 }
 
 .container .info {
@@ -147,6 +151,15 @@ body {
     align-items: center;
     display: flex;
     gap: 104px;
+    color: #f9faf8;
+}
+
+.cta .title {
+    font-weight: 900;
+}
+
+.cta .subtext {
+    font-size: 14px;
 }
 
 .cta .sign-up {
@@ -158,4 +171,5 @@ body {
     justify-content: center;
     align-items: center;
     height: 64px;
+    color: #f9faf8;
 }
