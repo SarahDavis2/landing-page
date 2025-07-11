@@ -27,7 +27,7 @@ body {
     font-weight: bold;
 }
 
-.hero a, .hero .subtext  {
+.hero a, .hero .subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -41,6 +41,10 @@ body {
 .hero a {
     text-decoration: none;
     margin-left: 16px;
+}
+
+.hero a:hover {
+    color: #3882f6;
 }
 
 /* header flexbox */
@@ -90,6 +94,12 @@ body {
     width: 1000px;
 }
 
+.rand-info .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .container .info {
     text-align: center;
     width: 180px;
@@ -110,8 +120,15 @@ body {
     gap: 8px;
 }
 
+.quote .text {
+    color: #1f2937;
+    font-family: light italic, arial, sans-serif;
+}
+
 .quote .author {
     margin-left: auto;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 /* cta */
