@@ -110,10 +110,28 @@ body {
     gap: 8px;
 }
 
-.quote .text {
-
-}
-
 .quote .author {
     margin-left: auto;
+}
+
+/* cta */
+.main-content .cta {
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.cta .container {
+    background-color: #3882f6;
+    border-radius: 4px;
+    height: 100px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 104px;
+}
+
+.cta .sign-up {
+    border: 2px solid white;
 }
