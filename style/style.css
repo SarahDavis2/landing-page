@@ -94,3 +94,26 @@ body {
     text-align: center;
     width: 180px;
 }
+
+/* quote */
+.main-content .quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 96px 0;
+}
+
+.main-content .quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 8px;
+}
+
+.quote .text {
+
+}
+
+.quote .author {
+    margin-left: auto;
+}
