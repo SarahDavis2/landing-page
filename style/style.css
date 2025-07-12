@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid black; */
 }
 
 body {
@@ -47,6 +46,11 @@ body {
     color: #3882f6;
 }
 
+.hero img {
+    height: auto;
+    width: 400px;
+}
+
 /* header flexbox */
 .hero .header {
     display: flex;
@@ -60,22 +64,24 @@ body {
     padding: 96px 0;
     gap: 64px;
     align-items: center;
+    justify-content: center;
 }
 
 .hero .left {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
+    width: 350px;
 }
 
 /* button */
 .sign-up {
     background-color: #3882f6;
-    color: #e5e7eb;
     border-radius: 8px;
     border: none;
     padding: 8px 16px;
     width: 100px;
+    color: #f9faf8;
 }
 
 /* main-content */
@@ -98,6 +104,7 @@ body {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding-bottom: 16px;
 }
 
 .rand-info .subtext {
@@ -106,6 +113,11 @@ body {
 
 .container .info {
     text-align: center;
+    width: 180px;
+}
+
+.rand-info img {
+    height: auto;
     width: 180px;
 }
 
@@ -127,6 +139,7 @@ body {
 .quote .text {
     color: #1f2937;
     font-family: light italic, arial, sans-serif;
+    font-style: italic;
 }
 
 .quote .author {
