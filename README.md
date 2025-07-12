@@ -11,4 +11,4 @@ This landing page is created from two reference images to practice html, css, an
 ## Reflection
 1. At first, I worked simultaneously on css and flexbox. However, next time I would work in the order of, html, flexbox, then css.
 2. After taking a few long breaks, I realize i should've organized my code better with more comments, and use the section tag and not just all divs in html.
-3. At the end, my css code became messy/overwhelming to reread, therefore I would fix this first by developing the .css file in the correct order (1), then use commented code to understand styling choices (2).s
+3. At the end, my css code became messy/overwhelming to reread, therefore I would fix this first by developing the .css file in the correct order (1), use commented code to understand styling choices (2), and finally, choose a better format in targeting my rules with less classes involved.
